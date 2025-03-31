@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class test.ui.PaymentUiTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class test.ui.PaymentUiTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/test.ui.html">test.ui</a> &gt; PaymentUiTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">24</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">13</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">2m21.37s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">45%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="shouldAutoDeletingStartEndHyphenInHolder"></a>
+<h3 class="failures">shouldAutoDeletingStartEndHyphenInHolder</h3>
+<span class="code">
+<pre>Element should have css class &quot;input_invalid&quot; {By.xpath: //form/By.xpath: .//span[text()='Владелец']//ancestor::div/span/span[1]/span}
+Element: '&lt;span class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_theme_alfa-on-white&quot;&gt;Владелец&lt;/span&gt;'
+Actual value: class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_theme_alfa-on-white&quot;
+Screenshot: file:/D:/WORK/Netology/java/diplom/build/reports/tests/1743420440738.14.png
+Page source: file:/D:/WORK/Netology/java/diplom/build/reports/tests/1743420440738.14.html
+Timeout: 4 s.
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:149)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:163)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy30.shouldHave(Unknown Source)
+	at app//page.TripFormPage.assertField(TripFormPage.java:109)
+	at app//test.ui.PaymentUiTests.shouldAutoDeletingStartEndHyphenInHolder(PaymentUiTests.java:280)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at app//org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at app//org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at app//org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at app//org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at app//org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at app//org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at app//org.testng.TestRunner.run(TestRunner.java:602)
+	at app//org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at app//org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at app//org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at app//org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at app//org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at app//org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at app//org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at app//org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at app//org.testng.TestNG.runSuites(TestNG.java:1099)
+	at app//org.testng.TestNG.run(TestNG.java:1067)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:146)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:91)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="shouldImmutableInputValuesAfterClickButton"></a>
+<h3 class="failures">shouldImmutableInputValuesAfterClickButton</h3>
+<span class="code">
+<pre>Element should have value=&quot;4444 4444 4444 4441&quot; {By.xpath: //form/By.xpath: .//span[text()='Номер карты']//ancestor::div/span/By.xpath: .//ancestor::span//input}
+Element: '&lt;input autocomplete=&quot;on&quot; class=&quot;input__control&quot; maxlength=&quot;19&quot; placeholder=&quot;0000 0000 0000 0000&quot; type=&quot;text&quot; value view=&quot;default&quot;&gt;&lt;/input&gt;'
+Actual value: value=&quot;&quot;
+Screenshot: file:/D:/WORK/Netology/java/diplom/build/reports/tests/1743420456074.15.png
+Page source: file:/D:/WORK/Netology/java/diplom/build/reports/tests/1743420456074.15.html
+Timeout: 4 s.
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:149)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:163)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy30.shouldHave(Unknown Source)
+	at app//page.TripFormPage.matchesByInsertValue(TripFormPage.java:61)
+	at app//test.ui.PaymentUiTests.shouldImmutableInputValuesAfterClickButton(PaymentUiTests.java:108)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at app//org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at app//org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at app//org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at app//org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at app//org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at app//org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at app//org.testng.TestRunner.run(TestRunner.java:602)
+	at app//org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at app//org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at app//org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at app//org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at app//org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at app//org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at app//org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at app//org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at app//org.testng.TestNG.runSuites(TestNG.java:1099)
+	at app//org.testng.TestNG.run(TestNG.java:1067)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:146)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:91)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="shouldSadPath"></a>
+<h3 class="failures">shouldSadPath</h3>
+<span class="code">
+<pre>Element should visible {By.xpath: //div[contains(@class, 'notification_status_error')]}
+Element: '&lt;div class=&quot;notification notification_status_error notification_has-closer notification_stick-to_right notification_theme_alfa-on-white&quot; displayed:false&gt;&lt;/div&gt;'
+Actual value: hidden
+Screenshot: file:/D:/WORK/Netology/java/diplom/build/reports/tests/1743420473467.16.png
+Page source: file:/D:/WORK/Netology/java/diplom/build/reports/tests/1743420473467.16.html
+Timeout: 15 s.
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:149)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:163)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy30.should(Unknown Source)
+	at app//page.TripFormPage.assertBuyOperationWithErrorNotification(TripFormPage.java:78)
+	at app//test.ui.PaymentUiTests.shouldSadPath(PaymentUiTests.java:84)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at app//org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at app//org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at app//org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at app//org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at app//org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at app//org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at app//org.testng.TestRunner.run(TestRunner.java:602)
+	at app//org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at app//org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at app//org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at app//org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at app//org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at app//org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at app//org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at app//org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at app//org.testng.TestNG.runSuites(TestNG.java:1099)
+	at app//org.testng.TestNG.run(TestNG.java:1067)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:146)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:91)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="shouldSuccessfulWithStartEndSpacebarInNumber"></a>
+<h3 class="failures">shouldSuccessfulWithStartEndSpacebarInNumber</h3>
+<span class="code">
+<pre>Element should have css class &quot;input_invalid&quot; {By.xpath: //form/By.xpath: .//span[text()='Номер карты']//ancestor::div/span}
+Element: '&lt;span class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_theme_alfa-on-white&quot;&gt;Номер карты&lt;/span&gt;'
+Actual value: class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_theme_alfa-on-white&quot;
+Screenshot: file:/D:/WORK/Netology/java/diplom/build/reports/tests/1743420488746.17.png
+Page source: file:/D:/WORK/Netology/java/diplom/build/reports/tests/1743420488746.17.html
+Timeout: 4 s.
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:149)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:163)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy30.shouldHave(Unknown Source)
+	at app//page.TripFormPage.assertField(TripFormPage.java:109)
+	at app//test.ui.PaymentUiTests.shouldSuccessfulWithStartEndSpacebarInNumber(PaymentUiTests.java:151)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at app//org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at app//org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at app//org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at app//org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at app//org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at app//org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at app//org.testng.TestRunner.run(TestRunner.java:602)
+	at app//org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at app//org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at app//org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at app//org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at app//org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at app//org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at app//org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at app//org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at app//org.testng.TestNG.runSuites(TestNG.java:1099)
+	at app//org.testng.TestNG.run(TestNG.java:1067)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:146)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:91)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="shouldUnsuccessfulWith13DigitsInNumber"></a>
+<h3 class="failures">shouldUnsuccessfulWith13DigitsInNumber</h3>
+<span class="code">
+<pre>Element should not have css class &quot;input_has-value&quot; {By.xpath: //form/By.xpath: .//span[text()='Номер карты']//ancestor::div/span}
+Element: '&lt;span class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_invalid input_theme_alfa-on-white&quot;&gt;Номер карты
+Неверный формат&lt;/span&gt;'
+Actual value: class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_invalid input_theme_alfa-on-white&quot;
+Screenshot: file:/D:/WORK/Netology/java/diplom/build/reports/tests/1743420495127.18.png
+Page source: file:/D:/WORK/Netology/java/diplom/build/reports/tests/1743420495127.18.html
+Timeout: 4 s.
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:146)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
+	at app//com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:163)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy30.shouldNotHave(Unknown Source)
+	at app//page.TripFormPage.assertField(TripFormPage.java:110)
+	at app//test.ui.PaymentUiTests.shouldUnsuccessfulWith13DigitsInNumber(PaymentUiTests.java:165)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at app//org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at app//org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at app//org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at app//org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at app//org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at app//org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at app//org.testng.TestRunner.run(TestRunner.java:602)
+	at app//org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at app//org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at app//org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at app//org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at app//org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at app//org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at app//org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at app//org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at app//org.testng.TestNG.runSuites(TestNG.java:1099)
+	at app//org.testng.TestNG.run(TestNG.java:1067)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:146)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:91)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="shouldVisibleNotificationWith00InMonth"></a>
+<h3 class="failures">shouldVisibleNotificationWith00InMonth</h3>
+<span class="code">
+<pre>Element should not have css class &quot;input_has-value&quot; {By.xpath: //form/By.xpath: .//span[text()='Месяц']//ancestor::div/span/span[1]/span}
+Element: '&lt;span class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_theme_alfa-on-white&quot;&gt;Месяц&lt;/span&gt;'
+Actual value: class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_theme_alfa-on-white&quot;
+Screenshot: file:/D:/WORK/Netology/java/diplom/build/reports/tests/1743420506241.19.png
+Page source: file:/D:/WORK/Netology/java/diplom/build/reports/tests/1743420506241.19.html
+Timeout: 4 s.
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:146)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
+	at app//com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:163)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy30.shouldNotHave(Unknown Source)
+	at app//page.TripFormPage.assertField(TripFormPage.java:116)
+	at app//test.ui.PaymentUiTests.shouldVisibleNotificationWith00InMonth(PaymentUiTests.java:208)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at app//org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at app//org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at app//org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at app//org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at app//org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at app//org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at app//org.testng.TestRunner.run(TestRunner.java:602)
+	at app//org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at app//org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at app//org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at app//org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at app//org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at app//org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at app//org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at app//org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at app//org.testng.TestNG.runSuites(TestNG.java:1099)
+	at app//org.testng.TestNG.run(TestNG.java:1067)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:146)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:91)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="shouldVisibleNotificationWith13InMonth"></a>
+<h3 class="failures">shouldVisibleNotificationWith13InMonth</h3>
+<span class="code">
+<pre>Element should not have css class &quot;input_has-value&quot; {By.xpath: //form/By.xpath: .//span[text()='Месяц']//ancestor::div/span/span[1]/span}
+Element: '&lt;span class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_invalid input_theme_alfa-on-white&quot;&gt;Месяц
+Неверно указан срок действия карты&lt;/span&gt;'
+Actual value: class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_invalid input_theme_alfa-on-white&quot;
+Screenshot: file:/D:/WORK/Netology/java/diplom/build/reports/tests/1743420512682.20.png
+Page source: file:/D:/WORK/Netology/java/diplom/build/reports/tests/1743420512682.20.html
+Timeout: 4 s.
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:146)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
+	at app//com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:163)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy30.shouldNotHave(Unknown Source)
+	at app//page.TripFormPage.assertField(TripFormPage.java:116)
+	at app//test.ui.PaymentUiTests.shouldVisibleNotificationWith13InMonth(PaymentUiTests.java:222)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at app//org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at app//org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at app//org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at app//org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at app//org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at app//org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at app//org.testng.TestRunner.run(TestRunner.java:602)
+	at app//org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at app//org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at app//org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at app//org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at app//org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at app//org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at app//org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at app//org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at app//org.testng.TestNG.runSuites(TestNG.java:1099)
+	at app//org.testng.TestNG.run(TestNG.java:1067)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:146)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:91)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="shouldVisibleNotificationWith2DigitsInCVC"></a>
+<h3 class="failures">shouldVisibleNotificationWith2DigitsInCVC</h3>
+<span class="code">
+<pre>Element should not have css class &quot;input_has-value&quot; {By.xpath: //form/By.xpath: .//span[text()='CVC/CVV']//ancestor::div/span/span[2]/span}
+Element: '&lt;span class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_invalid input_theme_alfa-on-white&quot;&gt;CVC/CVV
+Неверный формат&lt;/span&gt;'
+Actual value: class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_invalid input_theme_alfa-on-white&quot;
+Screenshot: file:/D:/WORK/Netology/java/diplom/build/reports/tests/1743420519136.21.png
+Page source: file:/D:/WORK/Netology/java/diplom/build/reports/tests/1743420519136.21.html
+Timeout: 4 s.
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:146)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
+	at app//com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:163)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy30.shouldNotHave(Unknown Source)
+	at app//page.TripFormPage.assertField(TripFormPage.java:110)
+	at app//test.ui.PaymentUiTests.shouldVisibleNotificationWith2DigitsInCVC(PaymentUiTests.java:379)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at app//org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at app//org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at app//org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at app//org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at app//org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at app//org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at app//org.testng.TestRunner.run(TestRunner.java:602)
+	at app//org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at app//org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at app//org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at app//org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at app//org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at app//org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at app//org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at app//org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at app//org.testng.TestNG.runSuites(TestNG.java:1099)
+	at app//org.testng.TestNG.run(TestNG.java:1067)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:146)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:91)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="shouldVisibleNotificationWithCyrillicInHolder"></a>
+<h3 class="failures">shouldVisibleNotificationWithCyrillicInHolder</h3>
+<span class="code">
+<pre>Element should have css class &quot;input_invalid&quot; {By.xpath: //form/By.xpath: .//span[text()='Владелец']//ancestor::div/span/span[1]/span}
+Element: '&lt;span class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_theme_alfa-on-white&quot;&gt;Владелец&lt;/span&gt;'
+Actual value: class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_theme_alfa-on-white&quot;
+Screenshot: file:/D:/WORK/Netology/java/diplom/build/reports/tests/1743420525389.22.png
+Page source: file:/D:/WORK/Netology/java/diplom/build/reports/tests/1743420525389.22.html
+Timeout: 4 s.
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:149)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:163)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy30.shouldHave(Unknown Source)
+	at app//page.TripFormPage.assertField(TripFormPage.java:109)
+	at app//test.ui.PaymentUiTests.shouldVisibleNotificationWithCyrillicInHolder(PaymentUiTests.java:294)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at app//org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at app//org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at app//org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at app//org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at app//org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at app//org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at app//org.testng.TestRunner.run(TestRunner.java:602)
+	at app//org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at app//org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at app//org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at app//org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at app//org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at app//org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at app//org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at app//org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at app//org.testng.TestNG.runSuites(TestNG.java:1099)
+	at app//org.testng.TestNG.run(TestNG.java:1067)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:146)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:91)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="shouldVisibleNotificationWithCyrillicSymbolInHolder"></a>
+<h3 class="failures">shouldVisibleNotificationWithCyrillicSymbolInHolder</h3>
+<span class="code">
+<pre>Element should have css class &quot;input_invalid&quot; {By.xpath: //form/By.xpath: .//span[text()='Владелец']//ancestor::div/span/span[1]/span}
+Element: '&lt;span class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_theme_alfa-on-white&quot;&gt;Владелец&lt;/span&gt;'
+Actual value: class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_theme_alfa-on-white&quot;
+Screenshot: file:/D:/WORK/Netology/java/diplom/build/reports/tests/1743420531606.23.png
+Page source: file:/D:/WORK/Netology/java/diplom/build/reports/tests/1743420531606.23.html
+Timeout: 4 s.
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:149)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:163)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy30.shouldHave(Unknown Source)
+	at app//page.TripFormPage.assertField(TripFormPage.java:109)
+	at app//test.ui.PaymentUiTests.shouldVisibleNotificationWithCyrillicSymbolInHolder(PaymentUiTests.java:308)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at app//org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at app//org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at app//org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at app//org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at app//org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at app//org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at app//org.testng.TestRunner.run(TestRunner.java:602)
+	at app//org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at app//org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at app//org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at app//org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at app//org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at app//org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at app//org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at app//org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at app//org.testng.TestNG.runSuites(TestNG.java:1099)
+	at app//org.testng.TestNG.run(TestNG.java:1067)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:146)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:91)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="shouldVisibleNotificationWithFirstRuLastEn"></a>
+<h3 class="failures">shouldVisibleNotificationWithFirstRuLastEn</h3>
+<span class="code">
+<pre>Element should have css class &quot;input_invalid&quot; {By.xpath: //form/By.xpath: .//span[text()='Владелец']//ancestor::div/span/span[1]/span}
+Element: '&lt;span class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_theme_alfa-on-white&quot;&gt;Владелец&lt;/span&gt;'
+Actual value: class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_theme_alfa-on-white&quot;
+Screenshot: file:/D:/WORK/Netology/java/diplom/build/reports/tests/1743420568513.24.png
+Page source: file:/D:/WORK/Netology/java/diplom/build/reports/tests/1743420568513.24.html
+Timeout: 4 s.
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:149)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:163)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy30.shouldHave(Unknown Source)
+	at app//page.TripFormPage.assertField(TripFormPage.java:109)
+	at app//test.ui.PaymentUiTests.shouldVisibleNotificationWithFirstRuLastEn(PaymentUiTests.java:336)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at app//org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at app//org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at app//org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at app//org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at app//org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at app//org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at app//org.testng.TestRunner.run(TestRunner.java:602)
+	at app//org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at app//org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at app//org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at app//org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at app//org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at app//org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at app//org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at app//org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at app//org.testng.TestNG.runSuites(TestNG.java:1099)
+	at app//org.testng.TestNG.run(TestNG.java:1067)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:146)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:91)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="shouldVisibleNotificationWithInvalid0SymbolsInYear"></a>
+<h3 class="failures">shouldVisibleNotificationWithInvalid0SymbolsInYear</h3>
+<span class="code">
+<pre>Element should not have css class &quot;input_has-value&quot; {By.xpath: //form/By.xpath: .//span[text()='Год']//ancestor::div/span/span[2]/span}
+Element: '&lt;span class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_invalid input_theme_alfa-on-white&quot;&gt;Год
+Истёк срок действия карты&lt;/span&gt;'
+Actual value: class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_invalid input_theme_alfa-on-white&quot;
+Screenshot: file:/D:/WORK/Netology/java/diplom/build/reports/tests/1743420574767.25.png
+Page source: file:/D:/WORK/Netology/java/diplom/build/reports/tests/1743420574767.25.html
+Timeout: 4 s.
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:146)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:30)
+	at app//com.codeborne.selenide.commands.ShouldNot.execute(ShouldNot.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:163)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy30.shouldNotHave(Unknown Source)
+	at app//page.TripFormPage.assertField(TripFormPage.java:113)
+	at app//test.ui.PaymentUiTests.shouldVisibleNotificationWithInvalid0SymbolsInYear(PaymentUiTests.java:251)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at app//org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at app//org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at app//org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at app//org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at app//org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at app//org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at app//org.testng.TestRunner.run(TestRunner.java:602)
+	at app//org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at app//org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at app//org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at app//org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at app//org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at app//org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at app//org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at app//org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at app//org.testng.TestNG.runSuites(TestNG.java:1099)
+	at app//org.testng.TestNG.run(TestNG.java:1067)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:146)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:91)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+<div class="test">
+<a name="shouldVisibleNotificationWithInvalidEmpty"></a>
+<h3 class="failures">shouldVisibleNotificationWithInvalidEmpty</h3>
+<span class="code">
+<pre>Element should have css class &quot;input_invalid&quot; {By.xpath: //form/By.xpath: .//span[text()='Номер карты']//ancestor::div/span}
+Element: '&lt;span class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_theme_alfa-on-white&quot;&gt;Номер карты&lt;/span&gt;'
+Actual value: class=&quot;input input_type_text input_view_default input_size_m input_width_available input_has-label input_has-value input_theme_alfa-on-white&quot;
+Screenshot: file:/D:/WORK/Netology/java/diplom/build/reports/tests/1743420581200.26.png
+Page source: file:/D:/WORK/Netology/java/diplom/build/reports/tests/1743420581200.26.html
+Timeout: 4 s.
+	at app//com.codeborne.selenide.impl.WebElementSource.handleError(WebElementSource.java:149)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkConditionAndReturnElement(WebElementSource.java:127)
+	at app//com.codeborne.selenide.impl.WebElementSource.checkCondition(WebElementSource.java:104)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:30)
+	at app//com.codeborne.selenide.commands.Should.execute(Should.java:14)
+	at app//com.codeborne.selenide.commands.Commands.execute(Commands.java:163)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.dispatchAndRetry(SelenideElementProxy.java:132)
+	at app//com.codeborne.selenide.impl.SelenideElementProxy.invoke(SelenideElementProxy.java:84)
+	at app//com.sun.proxy.$Proxy30.shouldHave(Unknown Source)
+	at app//page.TripFormPage.assertField(TripFormPage.java:109)
+	at app//test.ui.PaymentUiTests.shouldVisibleNotificationWithInvalidEmpty(PaymentUiTests.java:179)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at app//org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at app//org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at app//org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at app//org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at app//org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at app//org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base@11.0.26/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at app//org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at app//org.testng.TestRunner.run(TestRunner.java:602)
+	at app//org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at app//org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at app//org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at app//org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at app//org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at app//org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at app//org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at app//org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at app//org.testng.TestNG.runSuites(TestNG.java:1099)
+	at app//org.testng.TestNG.run(TestNG.java:1067)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.runTests(TestNGTestClassProcessor.java:146)
+	at org.gradle.api.internal.tasks.testing.testng.TestNGTestClassProcessor.stop(TestNGTestClassProcessor.java:91)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.stop(SuiteTestClassProcessor.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.26/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.26/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.26/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+	at com.sun.proxy.$Proxy2.stop(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker$3.run(TestWorker.java:193)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+	at app//worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">shouldAutoDeletingStartEndHyphenInHolder</td>
+<td class="failures">6.113s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">shouldHappyPath</td>
+<td class="success">8.746s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">shouldImmutableInputValuesAfterClickButton</td>
+<td class="failures">6.103s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">shouldSadPath</td>
+<td class="failures">17.229s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">shouldSuccessfulWith4DigitsInCVC</td>
+<td class="success">8.726s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">shouldSuccessfulWithStartEndSpacebarInNumber</td>
+<td class="failures">6.074s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">shouldUnsuccessfulWith13DigitsInNumber</td>
+<td class="failures">6.163s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">shouldVisibleNotification</td>
+<td class="success">4.599s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">shouldVisibleNotificationWith00InMonth</td>
+<td class="failures">6.063s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">shouldVisibleNotificationWith13InMonth</td>
+<td class="failures">6.201s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">shouldVisibleNotificationWith2DigitsInCVC</td>
+<td class="failures">6.212s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">shouldVisibleNotificationWithCyrillicInHolder</td>
+<td class="failures">6.013s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">shouldVisibleNotificationWithCyrillicSymbolInHolder</td>
+<td class="failures">5.986s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">shouldVisibleNotificationWithEmptyCVC</td>
+<td class="success">1.946s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldVisibleNotificationWithEmptyCVC0</td>
+<td class="success">3.587s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldVisibleNotificationWithEmptyHolder</td>
+<td class="success">1.882s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldVisibleNotificationWithEmptyMonth</td>
+<td class="success">1.905s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldVisibleNotificationWithEmptyNumber</td>
+<td class="success">1.870s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldVisibleNotificationWithEmptyYear</td>
+<td class="success">1.802s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldVisibleNotificationWithFirstEnLastRu</td>
+<td class="success">12.425s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">shouldVisibleNotificationWithFirstName</td>
+<td class="success">3.469s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="failures">shouldVisibleNotificationWithFirstRuLastEn</td>
+<td class="failures">6.007s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">shouldVisibleNotificationWithInvalid0SymbolsInYear</td>
+<td class="failures">6.239s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="failures">shouldVisibleNotificationWithInvalidEmpty</td>
+<td class="failures">6.010s</td>
+<td class="failures">failed</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.6.1</a> at 31 мар. 2025 г., 14:29:42</p>
+</div>
+</div>
+</body>
+</html>

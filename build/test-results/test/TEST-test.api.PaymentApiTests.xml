@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.api.PaymentApiTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-03-31T11:24:40" hostname="DELL" time="0.828">
+  <properties/>
+  <testcase name="shouldStatus400WithEmptyBody" classname="test.api.PaymentApiTests" time="0.139"/>
+  <testcase name="shouldStatus400WithEmptyCvc" classname="test.api.PaymentApiTests" time="0.124"/>
+  <testcase name="shouldStatus400WithEmptyHolder" classname="test.api.PaymentApiTests" time="0.111"/>
+  <testcase name="shouldStatus400WithEmptyMonth" classname="test.api.PaymentApiTests" time="0.087"/>
+  <testcase name="shouldStatus400WithEmptyNumber" classname="test.api.PaymentApiTests" time="0.099"/>
+  <testcase name="shouldStatus400WithEmptyYear" classname="test.api.PaymentApiTests" time="0.096"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	http://localhost:8080/api/v1/pay
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "number": "4444 4444 4444 4441",
+    "month": "04",
+    "year": "27",
+    "holder": "MARILYNN KOVACEK I",
+    "cvc": "914"
+}
+Request method:	POST
+Request URI:	http://localhost:8080/api/v1/pay
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "number": "4444 4444 4444 4441",
+    "month": "04",
+    "year": "27",
+    "holder": "KELSIE KUHLMAN"
+}
+Request method:	POST
+Request URI:	http://localhost:8080/api/v1/pay
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "number": "4444 4444 4444 4441",
+    "month": "04",
+    "year": "27",
+    "cvc": "522"
+}
+Request method:	POST
+Request URI:	http://localhost:8080/api/v1/pay
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "number": "4444 4444 4444 4441",
+    "year": "27",
+    "holder": "LEOPOLDO EMARD",
+    "cvc": "978"
+}
+Request method:	POST
+Request URI:	http://localhost:8080/api/v1/pay
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "month": "04",
+    "year": "27",
+    "holder": "JEANIE REYNOLDS",
+    "cvc": "043"
+}
+Request method:	POST
+Request URI:	http://localhost:8080/api/v1/pay
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "number": "4444 4444 4444 4441",
+    "month": "04",
+    "holder": "NOEL LIND",
+    "cvc": "126"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

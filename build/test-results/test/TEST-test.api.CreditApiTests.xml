@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.api.CreditApiTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-03-31T11:24:35" hostname="DELL" time="4.511">
+  <properties/>
+  <testcase name="shouldStatus400WithEmptyBody" classname="test.api.CreditApiTests" time="3.516"/>
+  <testcase name="shouldStatus400WithEmptyCvc" classname="test.api.CreditApiTests" time="0.129"/>
+  <testcase name="shouldStatus400WithEmptyHolder" classname="test.api.CreditApiTests" time="0.146"/>
+  <testcase name="shouldStatus400WithEmptyMonth" classname="test.api.CreditApiTests" time="0.096"/>
+  <testcase name="shouldStatus400WithEmptyNumber" classname="test.api.CreditApiTests" time="0.119"/>
+  <testcase name="shouldStatus400WithEmptyYear" classname="test.api.CreditApiTests" time="0.122"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	http://localhost:8080/api/v1/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "number": "4444 4444 4444 4441",
+    "month": "04",
+    "year": "27",
+    "holder": "MAC BOYER",
+    "cvc": "641"
+}
+Request method:	POST
+Request URI:	http://localhost:8080/api/v1/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "number": "4444 4444 4444 4441",
+    "month": "04",
+    "year": "27",
+    "holder": "HOUSTON SCHROEDER"
+}
+Request method:	POST
+Request URI:	http://localhost:8080/api/v1/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "number": "4444 4444 4444 4441",
+    "month": "04",
+    "year": "27",
+    "cvc": "116"
+}
+Request method:	POST
+Request URI:	http://localhost:8080/api/v1/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "number": "4444 4444 4444 4441",
+    "year": "27",
+    "holder": "MR. EZRA KRIS",
+    "cvc": "548"
+}
+Request method:	POST
+Request URI:	http://localhost:8080/api/v1/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "month": "04",
+    "year": "27",
+    "holder": "LORELEI WINTHEISER",
+    "cvc": "922"
+}
+Request method:	POST
+Request URI:	http://localhost:8080/api/v1/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "number": "4444 4444 4444 4441",
+    "month": "04",
+    "holder": "MS. STANTON SCHIMMEL",
+    "cvc": "862"
+}
+]]></system-out>
+  <system-err><![CDATA[log4j:WARN No appenders could be found for logger (org.apache.http.impl.conn.BasicClientConnectionManager).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+]]></system-err>
+</testsuite>
